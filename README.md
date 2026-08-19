@@ -8,7 +8,7 @@ Console app that converts a Spotify playlist into a YouTube playlist by matching
 3. The best match to the search is then added to the new or existing playlist 
 
 ## Usage
-1. Clone the repo and open `Spotify_YouTube_converter.sln` in Visual Studio
+1. Clone the repo and open |`Spotify_YouTube_converter.sln`| in Visual Studio
 2. Build and run
 3. You'll be prompted for:
    - Your exported Spotify CSV file path
