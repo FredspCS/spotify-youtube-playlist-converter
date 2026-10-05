@@ -308,7 +308,6 @@ namespace Spotify_YouTube_converter
 
         //static string GetSpotifyAccessToken()
         //{
-        //    //no longer works due to spotify API policy changes you must have a premium acount now (helpful..)
         //    Console.Write("Enter your Spotify Client ID: ");
         //    string clientID = Console.ReadLine();
 
@@ -325,7 +324,7 @@ namespace Spotify_YouTube_converter
         //        "&scope=" + Uri.EscapeDataString(scope) +
         //        "&redirect_uri=" + Uri.EscapeDataString(redirectUri);
 
-        //    // Start listener BEFORE opening browser
+
         //    string authCode = null;
         //    using (var listener = new HttpListener())
         //    {
@@ -339,10 +338,9 @@ namespace Spotify_YouTube_converter
 
         //        Console.WriteLine("Waiting for you to log in...");
 
-        //        // Blocks here until Spotify redirects back
         //        var context = listener.GetContext();
 
-        //        // Send a response so the browser doesn't hang
+
         //        string html = "<html><body><h2>Finished You can close this tab.</h2></body></html>";
         //        byte[] bytes = Encoding.UTF8.GetBytes(html);
         //        context.Response.ContentLength64 = bytes.Length;
